@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Chay Ung Dung Pet Care (Main)",
+            "request": "launch",
+            "mainClass": "Main",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "vmArgs": "-Dfile.encoding=UTF-8"
+        },
+        {
+            "type": "java",
+            "name": "Chay Bo Kiem Thu (PetCareTestSuite)",
+            "request": "launch",
+            "mainClass": "PetCareTestSuite",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "vmArgs": "-ea -Dfile.encoding=UTF-8"
+        }
+    ]
+}

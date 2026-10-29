@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": ["src", "test"],
+    "java.project.outputPath": "bin",
+    "files.encoding": "utf8",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}
